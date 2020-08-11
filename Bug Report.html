@@ -1,0 +1,183 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        </head>
+<body>
+
+<h1>Vinted Academy'20 QA task</h1>
+
+<h3>Tested product: <a style="padding-left: 0px"href="https://www.vinted.lt/">Vinted.lt</a></h3>
+<h3>Testing environment:</h4>
+<div>
+    <p>Operating system - Windows 10 Home (x64)</p>
+    <p>Browser - Google Chrome 84.0.4147.105 </p>
+</div>
+
+<h3>My contacts</h3>
+<div>
+    <p>Vaiva Nostytė</p>
+    <p><a href="mailto:v.nostyte@gmail.com" style="color:black">v.nostyte@gmail.com</a></p>
+    <p><a href="tel:+37067690762" style="color:black">+370 676 90762</a></p>
+</div>
+
+<h3>Bugs found:</h3>
+<h2>#1</h2>
+<div>
+    <p>Name:</p>
+    <a> Webiste tab screenshots does not apear after selecting IOS/Android tab and website tab again.</a>
+    <p>Steps to reproduce:</p>
+    <a>Open "Kaip ištrinti anketą" topic in "Pagalbos centras". Select website tab, then IOS/Android tab and then again website tab.</a>
+    <p>URL</p>
+    <a href="https://www.vinted.lt/help/88-kaip-istrinti-anketa?access_channel=hc_search">Open URL containing the problem.</a>
+    <p>GIF</p>
+    <img src="bug1.gif"  alt="animated">
+    <p>Expected result:</p>
+    <a>Screenshots change back to the website tab screenshots.</a>
+    <p>Actual result:</p>
+    <a>IOS/Android screenshots remain instead of website tab ones.</a>
+
+</div>
+
+<h2>#2</h2>
+<div>
+    <p>Name:</p>
+    <a>Page not found</a>
+    <p>Steps to reproduce:</p>
+    <a>Open "Kaip siųsti prekę" topic in "Pagalbos centras". Open "Kainų skaičiuoklė" link.</a>
+    <p>URL</p>
+    <a href="https://post.lt/lt/pagalba/kainu-skaiciuokle">Open URL containing the problem.</a>
+    <p>Screenshots</p>
+    <img src="bug2.PNG">
+    <p>Expected result:</p>
+    <a>Link leads to a website that contains price calculator.</a>
+    <p>Actual result:</p>
+    <a>Link leads to a webiste that contains page not found warning</a>
+
+
+</div>
+
+<h2>#3</h2>
+<div>
+    <p>Name:</p>
+    <a>Previously used email address is considered as in use.</a>
+    <p>Steps to reproduce:</p>
+    <a>Create an account in Vinted.lt and then delete that account.</a>
+    <p>Summary:</p>
+    <a>Creating an account in Vinted.lt and deleting it results in a warning that account was deleted
+         but right after this warning it is said that this email address is in use 
+         and asks to input a password. Also, it does not allow to create an account 
+         with the email address, which was deleted before.</a>
+    <p>Screenshots</p>
+    <img src="bug3.PNG">
+    <img src="bug3.1.PNG" style="width:15%">
+    <p>Expected result:</p>
+    <a>Only deleted account warning showed and/or website allows to create an account with an email address which was used in the past.</a>
+    <p>Actual result:</p>
+    <a>Warning that email address is in use and asks to login.</a>
+</div>
+
+<h2>#4</h2>
+<div>
+    <p>Name:</p>
+    <a>Link "Vinted komanda neredaguoja ir nešalina atsiliepimų." and "automatinį atsiliepimą." leads to the beggining of the "Kaip palikti atsiliepimą" page</a>
+    <p>Steps to reproduce:</p>
+    <a>Open "Kaip palikti atsiliepimą?" topic in "Pagalbos centras". Open links "Vinted komanda neredaguoja ir nešalina atsiliepimų." and "automatinį atsiliepimą."</a>
+    <p>URL</p>
+    <a href="https://www.vinted.lt/help/14-kaip-palikti-atsiliepima?access_channel=hc_search">Open URL containing the problem.</a>
+    <p>GIF</p>
+    <img src="bug4.gif">
+    <p>Expected result:</p>
+    <a>Links are plain texts or lead to pages which contains information related to the links.</a>
+    <p>Actual result:</p>
+    <a>Links lead to the beginning of the same page.</a>
+</div>
+
+<h2>#5</h2>
+<div>
+    <p>Name:</p>
+    <a>IOS/Android / Website tabs appear in a "strange" place.</a>
+    <p>Steps to reproduce:</p>
+    <a>Open "Kaip pakviesti draugus į Vinted?" topic in "Pagalbos centras". Tabs IOS/Android and Website are shown at the right side of the page title while in other pages these tabs are shown under the page title.</a>
+    <p>URL</p>
+    <a href="https://www.vinted.lt/help/318-kaip-pakviesti-draugus-i-vinted?access_channel=hc_search">Open URL containing the problem.</a>
+    <p>Screenshots</p>
+    <img src="bug5.PNG">
+    <p>Expected result:</p>
+    <a>Tabs IOS/Android and Website appear under the page title.</a>
+    <p>Actual result:</p>
+    <a>Tabs IOS/Android and Website appear at the right side of the page title.</a>
+</div>
+
+<h2>#5.1</h2>
+<div>
+    <p>Name:</p>
+    <a>Same paragraphs repeated twice.</a>
+    <p>Summary:</p>
+    <a>Open "Kaip pakviesti draugus į Vinted?" topic in "Pagalbos centras". Paragraphs "Kokie gali būti dovanų kuponai?" and "Svarbu žinoti" are repeated twice. Also, last paragraph contains a bullet point without any text.</a>
+    <p>URL</p>
+    <a href="https://www.vinted.lt/help/318-kaip-pakviesti-draugus-i-vinted?access_channel=hc_search">Open URL containing the problem.</a>
+    <p>Screenshots</p>
+    <img src="bug5.1.PNG">
+</div>
+<h2>#6</h2>
+<div>
+    <p>Name:</p>
+    <a>Closing “Tęsti su Facebook” window results in page redirection to login page.</a>
+    <p>Steps to reproduce:</p>
+    <a> Click on “Registruotis|Prisijungti” button then on “Tęsti su Facebook” button and close pop up window.</a>
+    <p>GIF</p>
+    <img src="bug6.gif">
+    <p>Expected result:</p>
+    <a>Pop up window closes and user remains in the same page with “Registruotis|Prisijungti” pop up window open.</a>
+    <p>Actual result:</p>
+    <a>Pop up windows closes and user is redirected to log in page.</a>
+</div>
+<h2>#7</h2>
+<div>
+    <p>Name:</p>
+    <a>Button “Žiūrėti pavyzdį” does not contain a link.</a>
+    <p>Steps to reproduce:</p>
+    <a>Open "Nustatymai" section in the "Apie mus" tab.</a>
+    <p>URL</p>
+    <a href="https://www.vinted.lt/settings/privacy">Open URL containing the problem.</a>
+    <p>Expected result:</p>
+    <a>Button “Žiūrėti pavyzdį” gives user related information or redirects user to related page.</a>
+    <p>Actual result:</p>
+    <a>Button “Žiūrėti pavyzdį” does not give user any information and does not redirect user to related page.</a>
+</div>
+<h2>#8</h2>
+<div>
+    <p>Name:</p>
+    <a>Button „Tęsti su Apple“ appears with a big delay.</a>
+    <p>Steps to reproduse:</p>
+    <a>Click on "Parduok dabar" button.</a>
+    <p>Additional note:</p>
+    <a>Delay is bigger on Microsoft Edge 44.18362.449.0 than on Google Chrome 84.0.4147.105 browser.</a>
+    <p>GIF (tested on Microsoft Edge browser)</p>
+    <img src="bug8.gif">
+    <p>Expected result:</p>
+    <a>Button shows with a delay.</a>
+    <p>Actual result</p>
+    <a>Button shows right away with other buttons.</a>
+</div>
+<h2>#9</h2>
+<div>
+    <p>Name:</p>
+    <a>No validation on email field.</a>
+    <p>Steps to reproduce:</p>
+    <a>Open "Pamiršai slaptažodį?" link in "Prisijungti" section. Enter anything into an email field.</a>
+    <p>URL</p>
+    <a href="https://www.vinted.lt/member/general/reset_password">Open URL containing the problem.</a>
+    <p>Screenshots</p>
+    <img src="bug9.PNG">
+    <p>Expected result:</p>
+    <a>Input field contains email validation.</a>
+    <p>Actual result:</p>
+    <a>Input field does not contain email validation.</a>
+</div>
+
+
+
+</body>
+</html>
+
