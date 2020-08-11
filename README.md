@@ -1,5 +1,4 @@
 # Vinted-Academy-20
 Task for QA position.
-Open Bug report.html file to see the report.
-https://github.com/Nvaiva/Vinted-Academy-20/blob/master/Bug%20Report.html
+Bug report can be found under this link - https://nvaiva.github.io/Vinted-Academy-20/
 
