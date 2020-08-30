@@ -1,0 +1,333 @@
+{
+  "id": "c9c2729a-cfd9-408e-a534-09ba15d70a2c",
+  "version": "2.0",
+  "name": "Vinted Academy'20",
+  "url": "https://www.vinted.lt",
+  "tests": [{
+    "id": "09b8cc7b-d39b-4eec-8952-f22b3ae2cb37",
+    "name": "Bug #1",
+    "commands": [{
+      "id": "f16ecc78-13e0-4a51-9b74-42f0076e6d8f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad00dc76-15fc-409f-9597-cf7f5fa4db2b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3a86fe3-990a-4765-96fb-5bffac584d4d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.u-flexbox > .c-icon--regular > svg",
+      "targets": [
+        ["css=.u-flexbox > .c-icon--regular > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfc1a5b5-1c62-42df-95dc-fd19dbc9dac2",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_text",
+      "targets": [
+        ["id=search_text", "id"],
+        ["name=search_text", "name"],
+        ["css=#SearchBar-react-component-80d8ad8d-a787-43ce-9c9f-6a85d2591016 #search_text", "css:finder"],
+        ["xpath=//input[@id='search_text']", "xpath:attributes"],
+        ["xpath=//div[@id='SearchBar-react-component-80d8ad8d-a787-43ce-9c9f-6a85d2591016']/div/form/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3271d51c-f7de-4962-9ae6-a67aa1d4d0b9",
+      "comment": "",
+      "command": "type",
+      "target": "id=search_text",
+      "targets": [
+        ["id=search_text", "id"],
+        ["name=search_text", "name"],
+        ["css=#SearchBar-react-component-80d8ad8d-a787-43ce-9c9f-6a85d2591016 #search_text", "css:finder"],
+        ["xpath=//input[@id='search_text']", "xpath:attributes"],
+        ["xpath=//div[@id='SearchBar-react-component-80d8ad8d-a787-43ce-9c9f-6a85d2591016']/div/form/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Kaip ištrinti anketą"
+    }, {
+      "id": "ef78d2e7-70b0-444e-b8fe-bfb9ea823e90",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search_text",
+      "targets": [
+        ["id=search_text", "id"],
+        ["name=search_text", "name"],
+        ["css=#SearchBar-react-component-80d8ad8d-a787-43ce-9c9f-6a85d2591016 #search_text", "css:finder"],
+        ["xpath=//input[@id='search_text']", "xpath:attributes"],
+        ["xpath=//div[@id='SearchBar-react-component-80d8ad8d-a787-43ce-9c9f-6a85d2591016']/div/form/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "9b4701f5-d3f7-45e5-a037-50968e488883",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-cell--with-chevron > .c-cell__link",
+      "targets": [
+        ["css=.c-cell--with-chevron > .c-cell__link", "css:finder"],
+        ["xpath=//section[@id='content']/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/help/88-kaip-istrinti-anketa?access_channel=hc_search')]", "xpath:href"],
+        ["xpath=//section/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a7010a0-1b1f-449f-a282-fa6f89ed578f",
+      "comment": "",
+      "command": "click",
+      "target": "name=iOS/Android",
+      "targets": [
+        ["name=iOS/Android", "name"],
+        ["css=.nav-item:nth-child(1) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'iOS/Android')]", "xpath:link"],
+        ["xpath=//a[@name='iOS/Android']", "xpath:attributes"],
+        ["xpath=//section[@id='content']/div/div/div/div/div/div/div[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#iosandroid88')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2141fa9-9e10-496e-9860-9b98f949ab14",
+      "comment": "",
+      "command": "click",
+      "target": "name=iOS/Android",
+      "targets": [
+        ["name=iOS/Android", "name"],
+        ["css=.nav-item:nth-child(1) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'iOS/Android')]", "xpath:link"],
+        ["xpath=//a[@name='iOS/Android']", "xpath:attributes"],
+        ["xpath=//section[@id='content']/div/div/div/div/div/div/div[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#iosandroid88')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "24cb112b-2391-4312-a1db-e10a10614f52",
+    "name": "Bug #2",
+    "commands": [{
+      "id": "7ce2acb7-0d71-4d30-9de8-e1b94ecbfe09",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "111bcefa-0f7f-463b-9f6d-b28f8a74ecd9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59eedf8e-12f4-4aa8-af83-76e0f1bbb807",
+      "comment": "",
+      "command": "click",
+      "target": "css=.u-flexbox > .c-icon--regular > svg",
+      "targets": [
+        ["css=.u-flexbox > .c-icon--regular > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3f818ce-6a8f-47fa-ae7a-0601df836e3c",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_text",
+      "targets": [
+        ["id=search_text", "id"],
+        ["name=search_text", "name"],
+        ["css=#SearchBar-react-component-228470e2-10a9-403d-bdb9-476f7e161860 #search_text", "css:finder"],
+        ["xpath=//input[@id='search_text']", "xpath:attributes"],
+        ["xpath=//div[@id='SearchBar-react-component-228470e2-10a9-403d-bdb9-476f7e161860']/div/form/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9871900-993c-46e6-8cbe-cb2e99ff394d",
+      "comment": "",
+      "command": "type",
+      "target": "id=search_text",
+      "targets": [
+        ["id=search_text", "id"],
+        ["name=search_text", "name"],
+        ["css=#SearchBar-react-component-228470e2-10a9-403d-bdb9-476f7e161860 #search_text", "css:finder"],
+        ["xpath=//input[@id='search_text']", "xpath:attributes"],
+        ["xpath=//div[@id='SearchBar-react-component-228470e2-10a9-403d-bdb9-476f7e161860']/div/form/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Kaip siųsti prekę"
+    }, {
+      "id": "81e43d03-4cf7-47dd-88ca-b334946d7557",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search_text",
+      "targets": [
+        ["id=search_text", "id"],
+        ["name=search_text", "name"],
+        ["css=#SearchBar-react-component-228470e2-10a9-403d-bdb9-476f7e161860 #search_text", "css:finder"],
+        ["xpath=//input[@id='search_text']", "xpath:attributes"],
+        ["xpath=//div[@id='SearchBar-react-component-228470e2-10a9-403d-bdb9-476f7e161860']/div/form/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "02fcf970-290f-4fbc-b550-8c364b86cac0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-cell--with-chevron:nth-child(2) > .c-cell__link",
+      "targets": [
+        ["css=.c-cell--with-chevron:nth-child(2) > .c-cell__link", "css:finder"],
+        ["xpath=//section[@id='content']/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/help/100-kaip-siusti-preke?access_channel=hc_search')]", "xpath:href"],
+        ["xpath=//section/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c680bbec-9986-41af-937c-1cb444b0e286",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=kainų skaičiuokle.",
+      "targets": [
+        ["linkText=kainų skaičiuokle.", "linkText"],
+        ["css=p:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'kainų skaičiuokle.')]", "xpath:link"],
+        ["xpath=//section[@id='content']/div/div/div/div/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://post.lt/lt/pagalba/kainu-skaiciuokle']", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'kainų skaičiuokle.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fa1858ab-3d63-4465-9317-8d64662fb077",
+    "name": "Bug #4",
+    "commands": [{
+      "id": "d9270137-0a0e-4df1-a649-3c323f3acede",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "618b4b45-cdfc-4063-9eba-3d2d52fec7de",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c09fdae-995e-4aa4-b3cb-8903abef6947",
+      "comment": "",
+      "command": "click",
+      "target": "css=.u-flexbox > .c-icon--regular > svg",
+      "targets": [
+        ["css=.u-flexbox > .c-icon--regular > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "bec9c75b-ba39-446e-8672-55b492563c4f",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_text",
+      "targets": [
+        ["id=search_text", "id"],
+        ["name=search_text", "name"],
+        ["css=#SearchBar-react-component-cafc825d-b9a3-4ff7-88ce-c1ac26a93666 #search_text", "css:finder"],
+        ["xpath=//input[@id='search_text']", "xpath:attributes"],
+        ["xpath=//div[@id='SearchBar-react-component-cafc825d-b9a3-4ff7-88ce-c1ac26a93666']/div/form/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2300efdc-6565-4683-8169-25453ed67b51",
+      "comment": "",
+      "command": "type",
+      "target": "id=search_text",
+      "targets": [
+        ["id=search_text", "id"],
+        ["name=search_text", "name"],
+        ["css=#SearchBar-react-component-cafc825d-b9a3-4ff7-88ce-c1ac26a93666 #search_text", "css:finder"],
+        ["xpath=//input[@id='search_text']", "xpath:attributes"],
+        ["xpath=//div[@id='SearchBar-react-component-cafc825d-b9a3-4ff7-88ce-c1ac26a93666']/div/form/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Kaip palikti atsiliepimą"
+    }, {
+      "id": "3f881ad2-a28b-4e08-8624-106537dd1d1b",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search_text",
+      "targets": [
+        ["id=search_text", "id"],
+        ["name=search_text", "name"],
+        ["css=#SearchBar-react-component-cafc825d-b9a3-4ff7-88ce-c1ac26a93666 #search_text", "css:finder"],
+        ["xpath=//input[@id='search_text']", "xpath:attributes"],
+        ["xpath=//div[@id='SearchBar-react-component-cafc825d-b9a3-4ff7-88ce-c1ac26a93666']/div/form/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "ec393ca1-681c-4909-8075-e547b4b6b9b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c-cell--with-chevron:nth-child(2) > .c-cell__link",
+      "targets": [
+        ["css=.c-cell--with-chevron:nth-child(2) > .c-cell__link", "css:finder"],
+        ["xpath=//section[@id='content']/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/help/14-kaip-palikti-atsiliepima?access_channel=hc_search')]", "xpath:href"],
+        ["xpath=//section/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8748f0e-26e2-46c2-a90b-c7639a6c2f2d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Vinted komanda neredaguoja ir nešalina atsiliepimų.",
+      "targets": [
+        ["linkText=Vinted komanda neredaguoja ir nešalina atsiliepimų.", "linkText"],
+        ["css=#web409 li:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Vinted komanda neredaguoja ir nešalina atsiliepimų.')])[2]", "xpath:link"],
+        ["xpath=//div[@id='web409']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[184]", "xpath:href"],
+        ["xpath=//div[5]/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2425417b-c1d0-43af-9ef7-bfb82f71608a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=automatinį atsiliepimą.",
+      "targets": [
+        ["linkText=automatinį atsiliepimą.", "linkText"],
+        ["css=#web409 li:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'automatinį atsiliepimą.')])[2]", "xpath:link"],
+        ["xpath=//div[@id='web409']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[185]", "xpath:href"],
+        ["xpath=//div[5]/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "eb53486a-a160-488b-b515-fbdce9d67f9e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.vinted.lt/"],
+  "plugins": []
+}
